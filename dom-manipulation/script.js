@@ -145,3 +145,4 @@ window.onload = () => {
   populateCategories();
   filterQuotes();
 };
+//last
