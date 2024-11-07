@@ -48,6 +48,23 @@
     color: #555;
   }
   
+  /* Dropdown filter styles */
+  #categoryFilter {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 220px;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+  }
+  
+  #categoryFilter:focus {
+    border-color: #007BFF;
+    outline: none;
+  }
+  
   /* Button styles */
   button {
     background-color: #007BFF;
@@ -76,7 +93,7 @@
   }
   
   /* Input fields styles */
-  input {
+  input[type="text"] {
     padding: 10px;
     font-size: 1rem;
     margin: 10px;
@@ -90,4 +107,26 @@
     outline: none;
   }
   
+  /* Export/Import section */
+  #exportJson, #importFile {
+    margin-top: 20px;
+  }
+  
+  /* Responsive Design for Small Screens */
+  @media (max-width: 600px) {
+    #quoteDisplay {
+      padding: 15px;
+      font-size: 1rem;
+    }
+  
+    button, #categoryFilter {
+      width: 100%;
+      font-size: 1rem;
+      padding: 10px;
+    }
+  
+    input[type="text"] {
+      width: 100%;
+    }
+  }
   
