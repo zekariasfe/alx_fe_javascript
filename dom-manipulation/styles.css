@@ -26,6 +26,18 @@
     text-align: center;
   }
   
+  /* Notification styles */
+  #notification {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+  }
+  
   /* Quote display container */
   #quoteDisplay {
     background-color: #fff;
@@ -95,38 +107,5 @@
   /* Input fields styles */
   input[type="text"] {
     padding: 10px;
-    font-size: 1rem;
-    margin: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    width: 200px;
-  }
-  
-  input[type="text"]:focus {
-    border-color: #007BFF;
-    outline: none;
-  }
-  
-  /* Export/Import section */
-  #exportJson, #importFile {
-    margin-top: 20px;
-  }
-  
-  /* Responsive Design for Small Screens */
-  @media (max-width: 600px) {
-    #quoteDisplay {
-      padding: 15px;
-      font-size: 1rem;
-    }
-  
-    button, #categoryFilter {
-      width: 100%;
-      font-size: 1rem;
-      padding: 10px;
-    }
-  
-    input[type="text"] {
-      width: 100%;
-    }
-  }
+   
   
